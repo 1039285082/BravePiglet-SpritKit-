@@ -7,27 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0410A2FC21EF1AEF006A9D5E /* TrickWolfScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410A2FB21EF1AEF006A9D5E /* TrickWolfScene.swift */; };
+		0410A2FE21EF2147006A9D5E /* TrickWolf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410A2FD21EF2147006A9D5E /* TrickWolf.swift */; };
+		0410A30021EF3604006A9D5E /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410A2FF21EF3604006A9D5E /* SoundManager.swift */; };
+		0410A30421EF3932006A9D5E /* brave-piglet2-selectScene-bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0410A30321EF3932006A9D5E /* brave-piglet2-selectScene-bg.mp3 */; };
 		041110E421D0ED6E00333274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041110E321D0ED6E00333274 /* AppDelegate.swift */; };
-		041110E621D0ED6E00333274 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 041110E521D0ED6E00333274 /* GameScene.sks */; };
-		041110E821D0ED6E00333274 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 041110E721D0ED6E00333274 /* Actions.sks */; };
-		041110EA21D0ED6E00333274 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041110E921D0ED6E00333274 /* GameScene.swift */; };
 		041110EC21D0ED6E00333274 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041110EB21D0ED6E00333274 /* GameViewController.swift */; };
 		041110EF21D0ED6E00333274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041110ED21D0ED6E00333274 /* Main.storyboard */; };
 		041110F121D0ED7000333274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041110F021D0ED7000333274 /* Assets.xcassets */; };
 		041110F421D0ED7000333274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041110F221D0ED7000333274 /* LaunchScreen.storyboard */; };
+		041110FC21D0F8E100333274 /* BaseBackgroundScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041110FB21D0F8E100333274 /* BaseBackgroundScene.swift */; };
+		045F69A921F070AA00B3A318 /* LockScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045F69A821F070AA00B3A318 /* LockScene.swift */; };
+		04630D7D21EDD913000381E4 /* GunWolfMainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04630D7C21EDD913000381E4 /* GunWolfMainScene.swift */; };
+		04630D7F21EDF608000381E4 /* GunWolf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04630D7E21EDF608000381E4 /* GunWolf.swift */; };
+		0482D85F21D7671E004A2267 /* Pig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482D85E21D7671E004A2267 /* Pig.swift */; };
+		0482D86121D7779A004A2267 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482D86021D7779A004A2267 /* Bullet.swift */; };
+		0482F26121EC983300B310F4 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482F26021EC983300B310F4 /* Bird.swift */; };
+		049C5EF621E9D7950042DBDC /* BulletParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 049C5EF421E9D7950042DBDC /* BulletParticle.sks */; };
+		049C5EF721E9D7950042DBDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049C5EF521E9D7950042DBDC /* Assets.xcassets */; };
+		049C5EFA21E9E2EB0042DBDC /* FailedNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C5EF921E9E2EB0042DBDC /* FailedNode.swift */; };
+		049C5EFE21E9F1610042DBDC /* WinNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C5EFD21E9F1610042DBDC /* WinNode.swift */; };
+		04A42AA021D1C2C700640C72 /* BirdMainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A42A9F21D1C2C700640C72 /* BirdMainScene.swift */; };
+		04A42AA421D204C700640C72 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A42AA321D204C700640C72 /* SceneManager.swift */; };
+		04A42AA621D2125100640C72 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A42AA521D2125100640C72 /* MenuScene.swift */; };
+		04A42AAD21D239D600640C72 /* LevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A42AAC21D239D600640C72 /* LevelScene.swift */; };
+		04AC20F821E081B7004E7833 /* RopeFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC20F721E081B7004E7833 /* RopeFront.swift */; };
+		04AC20FA21E08C5D004E7833 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC20F921E08C5D004E7833 /* Basket.swift */; };
+		04AC20FC21E0961D004E7833 /* Hook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC20FB21E0961D004E7833 /* Hook.swift */; };
+		04AC20FE21E0972C004E7833 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC20FD21E0972C004E7833 /* Piece.swift */; };
+		04AC210021E097E4004E7833 /* RopeHorizon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC20FF21E097E4004E7833 /* RopeHorizon.swift */; };
+		04BC6E4D21F17C2300F9D665 /* BlackBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC6E4C21F17C2300F9D665 /* BlackBall.swift */; };
+		04BC6E4F21F180C200F9D665 /* Parachute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC6E4E21F180C200F9D665 /* Parachute.swift */; };
+		04BC6E5321F1B22D00F9D665 /* BlackBallParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04BC6E5221F1B22D00F9D665 /* BlackBallParticle.sks */; };
+		04BD306421E2E68900B69C04 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD306321E2E68900B69C04 /* Array+Extension.swift */; };
+		04BD306721E3073900B69C04 /* LoseLiveNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD306621E3073900B69C04 /* LoseLiveNode.swift */; };
+		04C096E321D5BD4300D12654 /* BaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C096E221D5BD4300D12654 /* BaseNode.swift */; };
+		04C096E621D5C2A100D12654 /* Physice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C096E521D5C2A100D12654 /* Physice.swift */; };
+		04C096EA21D5FBF100D12654 /* Ballon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C096E921D5FBF100D12654 /* Ballon.swift */; };
+		04C096F021D5FF1900D12654 /* SceneSelectTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C096EF21D5FF1900D12654 /* SceneSelectTools.swift */; };
+		04C096F221D6195A00D12654 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C096F121D6195A00D12654 /* Background.swift */; };
+		04C096F421D61A6700D12654 /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C096F321D61A6700D12654 /* Ground.swift */; };
+		04C096F621D62D1700D12654 /* BigRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C096F521D62D1700D12654 /* BigRoller.swift */; };
+		04C096F821D62D2A00D12654 /* SmallRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C096F721D62D2A00D12654 /* SmallRoller.swift */; };
+		04C614E821F0247700970807 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04C614E721F0247700970807 /* Config.plist */; };
+		04F1048B21D4E122002E1611 /* Wolf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1048A21D4E122002E1611 /* Wolf.swift */; };
+		04F1048D21D4E63E002E1611 /* CraneHorizon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1048C21D4E63E002E1611 /* CraneHorizon.swift */; };
+		04F1048F21D4E671002E1611 /* CraneVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1048E21D4E671002E1611 /* CraneVertical.swift */; };
+		04F3E99521D3A22A00B2679A /* UIDevice-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3E99421D3A22A00B2679A /* UIDevice-Extension.swift */; };
+		A3F33C0BBB60CD668746F7CD /* Pods_BravePiglet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9AC1E647E225FE1AB1CBA2 /* Pods_BravePiglet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0410A2FB21EF1AEF006A9D5E /* TrickWolfScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickWolfScene.swift; sourceTree = "<group>"; };
+		0410A2FD21EF2147006A9D5E /* TrickWolf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrickWolf.swift; sourceTree = "<group>"; };
+		0410A2FF21EF3604006A9D5E /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		0410A30321EF3932006A9D5E /* brave-piglet2-selectScene-bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "brave-piglet2-selectScene-bg.mp3"; sourceTree = "<group>"; };
+		0410A30521EF3C79006A9D5E /* brave-piglet-scene1-bg.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brave-piglet-scene1-bg.m4a"; sourceTree = "<group>"; };
 		041110E021D0ED6E00333274 /* BravePiglet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BravePiglet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041110E321D0ED6E00333274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		041110E521D0ED6E00333274 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		041110E721D0ED6E00333274 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		041110E921D0ED6E00333274 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		041110EB21D0ED6E00333274 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		041110EE21D0ED6E00333274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041110F021D0ED7000333274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041110F321D0ED7000333274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041110F521D0ED7000333274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041110FB21D0F8E100333274 /* BaseBackgroundScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseBackgroundScene.swift; sourceTree = "<group>"; };
+		045F69A821F070AA00B3A318 /* LockScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScene.swift; sourceTree = "<group>"; };
+		04630D7C21EDD913000381E4 /* GunWolfMainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunWolfMainScene.swift; sourceTree = "<group>"; };
+		04630D7E21EDF608000381E4 /* GunWolf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunWolf.swift; sourceTree = "<group>"; };
+		0482D85E21D7671E004A2267 /* Pig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pig.swift; sourceTree = "<group>"; };
+		0482D86021D7779A004A2267 /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		0482F26021EC983300B310F4 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		049C5EF421E9D7950042DBDC /* BulletParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BulletParticle.sks; sourceTree = "<group>"; };
+		049C5EF521E9D7950042DBDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049C5EF921E9E2EB0042DBDC /* FailedNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedNode.swift; sourceTree = "<group>"; };
+		049C5EFD21E9F1610042DBDC /* WinNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinNode.swift; sourceTree = "<group>"; };
+		04A42A9F21D1C2C700640C72 /* BirdMainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdMainScene.swift; sourceTree = "<group>"; };
+		04A42AA321D204C700640C72 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
+		04A42AA521D2125100640C72 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		04A42AAC21D239D600640C72 /* LevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelScene.swift; sourceTree = "<group>"; };
+		04AC20F721E081B7004E7833 /* RopeFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopeFront.swift; sourceTree = "<group>"; };
+		04AC20F921E08C5D004E7833 /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		04AC20FB21E0961D004E7833 /* Hook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hook.swift; sourceTree = "<group>"; };
+		04AC20FD21E0972C004E7833 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		04AC20FF21E097E4004E7833 /* RopeHorizon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopeHorizon.swift; sourceTree = "<group>"; };
+		04BC6E4C21F17C2300F9D665 /* BlackBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBall.swift; sourceTree = "<group>"; };
+		04BC6E4E21F180C200F9D665 /* Parachute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parachute.swift; sourceTree = "<group>"; };
+		04BC6E5221F1B22D00F9D665 /* BlackBallParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BlackBallParticle.sks; sourceTree = "<group>"; };
+		04BD306321E2E68900B69C04 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		04BD306621E3073900B69C04 /* LoseLiveNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseLiveNode.swift; sourceTree = "<group>"; };
+		04C096E221D5BD4300D12654 /* BaseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNode.swift; sourceTree = "<group>"; };
+		04C096E521D5C2A100D12654 /* Physice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physice.swift; sourceTree = "<group>"; };
+		04C096E921D5FBF100D12654 /* Ballon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ballon.swift; sourceTree = "<group>"; };
+		04C096EF21D5FF1900D12654 /* SceneSelectTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneSelectTools.swift; sourceTree = "<group>"; };
+		04C096F121D6195A00D12654 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		04C096F321D61A6700D12654 /* Ground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		04C096F521D62D1700D12654 /* BigRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigRoller.swift; sourceTree = "<group>"; };
+		04C096F721D62D2A00D12654 /* SmallRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallRoller.swift; sourceTree = "<group>"; };
+		04C614E721F0247700970807 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		04F1048A21D4E122002E1611 /* Wolf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wolf.swift; sourceTree = "<group>"; };
+		04F1048C21D4E63E002E1611 /* CraneHorizon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraneHorizon.swift; sourceTree = "<group>"; };
+		04F1048E21D4E671002E1611 /* CraneVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraneVertical.swift; sourceTree = "<group>"; };
+		04F3E99421D3A22A00B2679A /* UIDevice-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice-Extension.swift"; sourceTree = "<group>"; };
+		0AA0FBBC01D240256CAA8DFE /* Pods-BravePiglet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BravePiglet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BravePiglet/Pods-BravePiglet.debug.xcconfig"; sourceTree = "<group>"; };
+		451EAC6EEDC84A1FC9AA2810 /* Pods-BravePiglet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BravePiglet.release.xcconfig"; path = "Pods/Target Support Files/Pods-BravePiglet/Pods-BravePiglet.release.xcconfig"; sourceTree = "<group>"; };
+		CA9AC1E647E225FE1AB1CBA2 /* Pods_BravePiglet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BravePiglet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +118,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F33C0BBB60CD668746F7CD /* Pods_BravePiglet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0410A30121EF390C006A9D5E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0410A30221EF391F006A9D5E /* Sound */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0410A30221EF391F006A9D5E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				0410A30521EF3C79006A9D5E /* brave-piglet-scene1-bg.m4a */,
+				0410A30321EF3932006A9D5E /* brave-piglet2-selectScene-bg.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		041110D721D0ED6E00333274 = {
 			isa = PBXGroup;
 			children = (
 				041110E221D0ED6E00333274 /* BravePiglet */,
 				041110E121D0ED6E00333274 /* Products */,
+				CD5108BF02F8B2EEB2E03ED0 /* Pods */,
+				04604EEADF51F6561176A9DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +163,145 @@
 		041110E221D0ED6E00333274 /* BravePiglet */ = {
 			isa = PBXGroup;
 			children = (
-				041110E321D0ED6E00333274 /* AppDelegate.swift */,
-				041110E521D0ED6E00333274 /* GameScene.sks */,
-				041110E721D0ED6E00333274 /* Actions.sks */,
-				041110E921D0ED6E00333274 /* GameScene.swift */,
+				04C614E421F0237C00970807 /* Tools */,
+				0410A30121EF390C006A9D5E /* Resource */,
+				049C5EEF21E9D47B0042DBDC /* Particle */,
+				04C096E421D5C24800D12654 /* Others */,
+				04F1048921D4E0ED002E1611 /* Nodes */,
+				04F3E99321D3A1FD00B2679A /* Extension */,
+				04A42AA121D2044600640C72 /* Manager */,
+				04A42A9E21D1C28F00640C72 /* Main */,
 				041110EB21D0ED6E00333274 /* GameViewController.swift */,
+				041110E321D0ED6E00333274 /* AppDelegate.swift */,
 				041110ED21D0ED6E00333274 /* Main.storyboard */,
 				041110F021D0ED7000333274 /* Assets.xcassets */,
 				041110F221D0ED7000333274 /* LaunchScreen.storyboard */,
 				041110F521D0ED7000333274 /* Info.plist */,
 			);
 			path = BravePiglet;
+			sourceTree = "<group>";
+		};
+		04604EEADF51F6561176A9DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA9AC1E647E225FE1AB1CBA2 /* Pods_BravePiglet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		049C5EEF21E9D47B0042DBDC /* Particle */ = {
+			isa = PBXGroup;
+			children = (
+				049C5EF421E9D7950042DBDC /* BulletParticle.sks */,
+				049C5EF521E9D7950042DBDC /* Assets.xcassets */,
+				04BC6E5221F1B22D00F9D665 /* BlackBallParticle.sks */,
+			);
+			path = Particle;
+			sourceTree = "<group>";
+		};
+		049C5EF821E9D91A0042DBDC /* WinAndFailed */ = {
+			isa = PBXGroup;
+			children = (
+				049C5EF921E9E2EB0042DBDC /* FailedNode.swift */,
+				049C5EFD21E9F1610042DBDC /* WinNode.swift */,
+			);
+			path = WinAndFailed;
+			sourceTree = "<group>";
+		};
+		04A42A9D21D1BD7E00640C72 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04A42A9F21D1C2C700640C72 /* BirdMainScene.swift */,
+				041110FB21D0F8E100333274 /* BaseBackgroundScene.swift */,
+				04630D7C21EDD913000381E4 /* GunWolfMainScene.swift */,
+				0410A2FB21EF1AEF006A9D5E /* TrickWolfScene.swift */,
+				045F69A821F070AA00B3A318 /* LockScene.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04A42A9E21D1C28F00640C72 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04A42AA521D2125100640C72 /* MenuScene.swift */,
+				04A42AAC21D239D600640C72 /* LevelScene.swift */,
+				04A42A9D21D1BD7E00640C72 /* Base */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04A42AA121D2044600640C72 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				04A42AA321D204C700640C72 /* SceneManager.swift */,
+				04C096EF21D5FF1900D12654 /* SceneSelectTools.swift */,
+				0410A2FF21EF3604006A9D5E /* SoundManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		04C096E421D5C24800D12654 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				04C096E521D5C2A100D12654 /* Physice.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		04C614E421F0237C00970807 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				04C614E721F0247700970807 /* Config.plist */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04F1048921D4E0ED002E1611 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				049C5EF821E9D91A0042DBDC /* WinAndFailed */,
+				04F1048A21D4E122002E1611 /* Wolf.swift */,
+				04F1048C21D4E63E002E1611 /* CraneHorizon.swift */,
+				04F1048E21D4E671002E1611 /* CraneVertical.swift */,
+				04C096E921D5FBF100D12654 /* Ballon.swift */,
+				04C096E221D5BD4300D12654 /* BaseNode.swift */,
+				04C096F121D6195A00D12654 /* Background.swift */,
+				04C096F321D61A6700D12654 /* Ground.swift */,
+				04C096F521D62D1700D12654 /* BigRoller.swift */,
+				04C096F721D62D2A00D12654 /* SmallRoller.swift */,
+				0482D85E21D7671E004A2267 /* Pig.swift */,
+				0482D86021D7779A004A2267 /* Bullet.swift */,
+				04AC20F721E081B7004E7833 /* RopeFront.swift */,
+				04AC20F921E08C5D004E7833 /* Basket.swift */,
+				04AC20FB21E0961D004E7833 /* Hook.swift */,
+				04AC20FD21E0972C004E7833 /* Piece.swift */,
+				04AC20FF21E097E4004E7833 /* RopeHorizon.swift */,
+				04BD306621E3073900B69C04 /* LoseLiveNode.swift */,
+				0482F26021EC983300B310F4 /* Bird.swift */,
+				04630D7E21EDF608000381E4 /* GunWolf.swift */,
+				0410A2FD21EF2147006A9D5E /* TrickWolf.swift */,
+				04BC6E4C21F17C2300F9D665 /* BlackBall.swift */,
+				04BC6E4E21F180C200F9D665 /* Parachute.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		04F3E99321D3A1FD00B2679A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04F3E99421D3A22A00B2679A /* UIDevice-Extension.swift */,
+				04BD306321E2E68900B69C04 /* Array+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CD5108BF02F8B2EEB2E03ED0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AA0FBBC01D240256CAA8DFE /* Pods-BravePiglet.debug.xcconfig */,
+				451EAC6EEDC84A1FC9AA2810 /* Pods-BravePiglet.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041110F821D0ED7000333274 /* Build configuration list for PBXNativeTarget "BravePiglet" */;
 			buildPhases = (
+				A5106940F80B60E58DBE273F /* [CP] Check Pods Manifest.lock */,
 				041110DC21D0ED6E00333274 /* Sources */,
 				041110DD21D0ED6E00333274 /* Frameworks */,
 				041110DE21D0ED6E00333274 /* Resources */,
+				282FD3C03DF505842C411C2B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,24 +364,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BC6E5321F1B22D00F9D665 /* BlackBallParticle.sks in Resources */,
 				041110EF21D0ED6E00333274 /* Main.storyboard in Resources */,
-				041110E621D0ED6E00333274 /* GameScene.sks in Resources */,
+				049C5EF621E9D7950042DBDC /* BulletParticle.sks in Resources */,
+				0410A30421EF3932006A9D5E /* brave-piglet2-selectScene-bg.mp3 in Resources */,
 				041110F121D0ED7000333274 /* Assets.xcassets in Resources */,
 				041110F421D0ED7000333274 /* LaunchScreen.storyboard in Resources */,
-				041110E821D0ED6E00333274 /* Actions.sks in Resources */,
+				049C5EF721E9D7950042DBDC /* Assets.xcassets in Resources */,
+				04C614E821F0247700970807 /* Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		282FD3C03DF505842C411C2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BravePiglet/Pods-BravePiglet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BravePiglet/Pods-BravePiglet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5106940F80B60E58DBE273F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BravePiglet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		041110DC21D0ED6E00333274 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041110EA21D0ED6E00333274 /* GameScene.swift in Sources */,
+				0482D85F21D7671E004A2267 /* Pig.swift in Sources */,
+				045F69A921F070AA00B3A318 /* LockScene.swift in Sources */,
+				0410A2FE21EF2147006A9D5E /* TrickWolf.swift in Sources */,
+				04C096F021D5FF1900D12654 /* SceneSelectTools.swift in Sources */,
+				049C5EFE21E9F1610042DBDC /* WinNode.swift in Sources */,
+				04F1048B21D4E122002E1611 /* Wolf.swift in Sources */,
+				041110FC21D0F8E100333274 /* BaseBackgroundScene.swift in Sources */,
+				04C096E321D5BD4300D12654 /* BaseNode.swift in Sources */,
+				04630D7D21EDD913000381E4 /* GunWolfMainScene.swift in Sources */,
 				041110EC21D0ED6E00333274 /* GameViewController.swift in Sources */,
+				04F1048D21D4E63E002E1611 /* CraneHorizon.swift in Sources */,
+				04C096F621D62D1700D12654 /* BigRoller.swift in Sources */,
+				04C096E621D5C2A100D12654 /* Physice.swift in Sources */,
+				0482F26121EC983300B310F4 /* Bird.swift in Sources */,
+				04AC20F821E081B7004E7833 /* RopeFront.swift in Sources */,
+				04A42AA421D204C700640C72 /* SceneManager.swift in Sources */,
+				04F3E99521D3A22A00B2679A /* UIDevice-Extension.swift in Sources */,
+				04AC20FE21E0972C004E7833 /* Piece.swift in Sources */,
+				0410A30021EF3604006A9D5E /* SoundManager.swift in Sources */,
+				0410A2FC21EF1AEF006A9D5E /* TrickWolfScene.swift in Sources */,
+				04630D7F21EDF608000381E4 /* GunWolf.swift in Sources */,
+				04F1048F21D4E671002E1611 /* CraneVertical.swift in Sources */,
+				04C096EA21D5FBF100D12654 /* Ballon.swift in Sources */,
+				04AC20FA21E08C5D004E7833 /* Basket.swift in Sources */,
+				04C096F221D6195A00D12654 /* Background.swift in Sources */,
+				04A42AA621D2125100640C72 /* MenuScene.swift in Sources */,
+				04C096F421D61A6700D12654 /* Ground.swift in Sources */,
 				041110E421D0ED6E00333274 /* AppDelegate.swift in Sources */,
+				04BC6E4D21F17C2300F9D665 /* BlackBall.swift in Sources */,
+				0482D86121D7779A004A2267 /* Bullet.swift in Sources */,
+				04BC6E4F21F180C200F9D665 /* Parachute.swift in Sources */,
+				04BD306421E2E68900B69C04 /* Array+Extension.swift in Sources */,
+				04BD306721E3073900B69C04 /* LoseLiveNode.swift in Sources */,
+				04AC210021E097E4004E7833 /* RopeHorizon.swift in Sources */,
+				04C096F821D62D2A00D12654 /* SmallRoller.swift in Sources */,
+				04A42AAD21D239D600640C72 /* LevelScene.swift in Sources */,
+				049C5EFA21E9E2EB0042DBDC /* FailedNode.swift in Sources */,
+				04AC20FC21E0961D004E7833 /* Hook.swift in Sources */,
+				04A42AA021D1C2C700640C72 /* BirdMainScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,10 +613,13 @@
 		};
 		041110F921D0ED7000333274 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA0FBBC01D240256CAA8DFE /* Pods-BravePiglet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDXMTGUW44;
 				INFOPLIST_FILE = BravePiglet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,10 +633,13 @@
 		};
 		041110FA21D0ED7000333274 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451EAC6EEDC84A1FC9AA2810 /* Pods-BravePiglet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDXMTGUW44;
 				INFOPLIST_FILE = BravePiglet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

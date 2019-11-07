@@ -1,0 +1,6 @@
+framework module Pods_BravePiglet {
+  umbrella header "Pods-BravePiglet-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+PODS:
+  - DeviceKit (1.10.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+
+DEPENDENCIES:
+  - DeviceKit
+  - FMDB
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DeviceKit
+    - FMDB
+
+SPEC CHECKSUMS:
+  DeviceKit: 2a6cf0d1ec05e2ac7f9b24cdfdb3cb358900a247
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+
+PODFILE CHECKSUM: 76fc32d6f1ea36538dea5f6d1214521c0fd4462c
+
+COCOAPODS: 1.5.3
